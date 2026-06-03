@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Manager User",
+      "email": "manager@test.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": "2",
+      "name": "Collaborator User",
+      "email": "user@test.com",
+      "password": "123456",
+      "role": "collaborator"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Website Redesign",
+      "description": "Corporate web ecosystem modernization plan.",
+      "status": "In Progress",
+      "assignedTo": 2
+    }
+  ]
+}
